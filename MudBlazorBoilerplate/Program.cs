@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+
 using MudBlazor.Services;
-using MudBlazorBoilerplate.Client.Pages;
+
 using MudBlazorBoilerplate.Components;
 using MudBlazorBoilerplate.Components.Account;
 using MudBlazorBoilerplate.Data;
@@ -66,7 +67,7 @@ app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(MudBlazorBoilerplate.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(MudBlazorBoilerplate.WebUI.Client._Imports).Assembly);
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
