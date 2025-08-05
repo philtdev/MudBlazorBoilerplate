@@ -9,6 +9,7 @@
 
 
   <ItemGroup>
+    <ProjectReference Include="..\MudBlazorBoilerplate.Infrastructure\MudBlazorBoilerplate.Infrastructure.csproj" />
     <ProjectReference Include="..\MudBlazorBoilerplate.WebUI.Client\MudBlazorBoilerplate.WebUI.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.*" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.*" />

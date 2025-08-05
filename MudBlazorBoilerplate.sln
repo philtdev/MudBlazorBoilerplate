@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.Domain
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.Application", "MudBlazorBoilerplate.Application\MudBlazorBoilerplate.Application.csproj", "{B57BED57-1D45-4A4E-9A62-C55EF62FBA70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.Infrastructure", "MudBlazorBoilerplate.Infrastructure\MudBlazorBoilerplate.Infrastructure.csproj", "{81136C01-8B97-4DAF-80C6-D10B49EBB731}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{B57BED57-1D45-4A4E-9A62-C55EF62FBA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57BED57-1D45-4A4E-9A62-C55EF62FBA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57BED57-1D45-4A4E-9A62-C55EF62FBA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81136C01-8B97-4DAF-80C6-D10B49EBB731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81136C01-8B97-4DAF-80C6-D10B49EBB731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81136C01-8B97-4DAF-80C6-D10B49EBB731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81136C01-8B97-4DAF-80C6-D10B49EBB731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2B42B628-9AFC-4C65-853C-2057CCDE02F5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B57BED57-1D45-4A4E-9A62-C55EF62FBA70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{81136C01-8B97-4DAF-80C6-D10B49EBB731} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A86BC39E-A6B5-4C09-A240-B66296EC1CDC}
