@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate", "MudBlazorBoilerplate\MudBlazorBoilerplate.csproj", "{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.Client", "MudBlazorBoilerplate.Client\MudBlazorBoilerplate.Client.csproj", "{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A86BC39E-A6B5-4C09-A240-B66296EC1CDC}
+	EndGlobalSection
+EndGlobal
