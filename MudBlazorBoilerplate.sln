@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.WebUI.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MudBlazorBoilerplate.WebUI.Client", "MudBlazorBoilerplate.WebUI.Client\MudBlazorBoilerplate.WebUI.Client.csproj", "{3B7EA4BF-24FB-4504-A028-99FCA6D8014E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB4EA561-F775-47D5-B6D4-6E7A3C5A7227} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3B7EA4BF-24FB-4504-A028-99FCA6D8014E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A86BC39E-A6B5-4C09-A240-B66296EC1CDC}
