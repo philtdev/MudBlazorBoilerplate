@@ -11,12 +11,14 @@
   <ItemGroup>
     <ProjectReference Include="..\MudBlazorBoilerplate.Infrastructure\MudBlazorBoilerplate.Infrastructure.csproj" />
     <ProjectReference Include="..\MudBlazorBoilerplate.WebUI.Client\MudBlazorBoilerplate.WebUI.Client.csproj" />
+    <PackageReference Include="Carter" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.*" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.*" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.*" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.*" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Build.Tasks.Core" Version="17.14.8" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.14.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.*" />
     <PackageReference Include="Extensions.MudBlazor.StaticInput" Version="3.*" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.7.2" />
   </ItemGroup>
 
 </Project>
